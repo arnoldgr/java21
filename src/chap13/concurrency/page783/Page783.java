@@ -41,33 +41,34 @@ public class Page783 {
                 Thread.sleep(100);
             } catch (InterruptedException e) {
 
-        }
-    }
-
-    public static void main(String[] args) {
-
-        var foxy = new Fox("Foxy");
-        var tails = new Fox("Tails");
-        var food = new Food();
-        var water = new Water();
-
-        try (var service = Executors.newScheduledThreadPool(10)) {
-            service.submit(() -> foxy.eatAndDrink(food, water));
-            service.submit(() -> tails.drinkAndEat(food, water));
+            }
         }
 
-        // Notes:
-        // Deadlock:
-        // Both threads may wait forever for the other resource.
-        //
-        // Starvation:
-        // One thread keeps losing access to a shared resource.
-        //
-        // Livelock:
-        // Threads stay active but keep reacting to each other without progress.
-        //
-        // Race condition:
-        // Two tasks run at the same time and create invalid or unexpected data.
+        public static void main(String[] args) {
+
+            var foxy = new Fox("Foxy");
+            var tails = new Fox("Tails");
+            var food = new Food();
+            var water = new Water();
+
+            try (var service = Executors.newScheduledThreadPool(10)) {
+                service.submit(() -> foxy.eatAndDrink(food, water));
+                service.submit(() -> tails.drinkAndEat(food, water));
+            }
+
+            // Notes:
+            // Deadlock:
+            // Both threads may wait forever for the other resource.
+            //
+            // Starvation:
+            // One thread keeps losing access to a shared resource.
+            //
+            // Livelock:
+            // Threads stay active but keep reacting to each other without progress.
+            //
+            // Race condition:
+            // Two tasks run at the same time and create invalid or unexpected data.
+        }
     }
 }
 
