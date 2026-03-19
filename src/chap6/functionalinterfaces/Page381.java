@@ -1,5 +1,6 @@
 package chap6.functionalinterfaces;
 
+import java.util.Comparator;
 import java.util.function.*;
 
 // Introducing Functional Interfaces
