@@ -24,10 +24,10 @@ public class Page192 {
 //        againStrings[0] = new StringBuilder();   // DOES NOT COMPILE
 //        objects[0] = new StringBuilder();        // Careful!  array is of type string, will fail at runtime if wrong type
 
-//        Line 3 creates an array of type String.Line 4 doesn’t require a cast because Object is a broader type
-//        than String.On line 5, a cast is needed because we are moving to a more specific type.Line 6 doesn’t compile
+//        Line 21 creates an array of type String.Line 22 doesn’t require a cast because Object is a broader type
+//        than String.On line 23, a cast is needed because we are moving to a more specific type.Line 24 doesn’t compile
 //        because a String[] allows only String objects, and StringBuilder is not a String.
-//                Line 7 is where this gets interesting.From the point of view of the compiler, this is just
+//                Line 25 is where this gets interesting.From the point of view of the compiler, this is just
 //        fine.A StringBuilder object can clearly go in an Object[].The problem is that we don’t actually have an
 //        Object[].We have a String[] referred to from an Object[] variable.At runtime, the code throws
 //        an ArrayStoreException.You don’t need to memorize the name of this exception, but you do need to know that this
