@@ -1,6 +1,6 @@
 package chap5.WorkingWithVarargs;
 
-public class Page47 {
+public class Page247 {
     public static void main(String[] args) {
 
 //    When calling a method with a varargs parameter, you have a choice.
