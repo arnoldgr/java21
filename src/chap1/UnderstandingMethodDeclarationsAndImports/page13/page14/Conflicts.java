@@ -2,10 +2,13 @@ package chap1.UnderstandingMethodDeclarationsAndImports.page13.page14; // packag
 
 import java.util.Date;  // must be after package if there is a package . not required
 
-//import java.sql.Date;
 
-public class Conflicts {      // must be after imports if any , required
-    Date date;
+
+public class Conflicts {
+    public static void main(String[] args) {
+
+        // must be after imports if any , required
+        Date date;
 
 // OR USE THE FULLY QUALIFIED NAME
     /*Sometimes you really do want to use Date from two different packages.
@@ -13,6 +16,8 @@ public class Conflicts {      // must be after imports if any , required
     fully qualified class name. Or you can drop both import statements and always use the
     fully qualified class name.
      */
-    java.util.Date date2;
-    java.sql.Date sqlDate;
+        java.util.Date date2;
+        Date date3;
+
+    }
 }
