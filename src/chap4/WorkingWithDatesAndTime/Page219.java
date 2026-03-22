@@ -2,7 +2,7 @@ package chap4.WorkingWithDatesAndTime;
 
 import java.time.*;
 
-public interface Page219 {
+public class Page219 {
     public static void main(String[] args) {
 //        Working with Instants
 //        The Instant class represents a specific moment in time in the GMT time zone.
