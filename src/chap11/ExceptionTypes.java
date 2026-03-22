@@ -1,4 +1,4 @@
-package ExceptionsAndLocalization;
+package chap11;
 // Exception Types
 // Java has three main categories of exceptions: Checked, Unchecked, and Errors.
 // Checked exceptions must be handled or declared, unchecked exceptions do not,

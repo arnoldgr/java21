@@ -1,4 +1,4 @@
-package ExceptionsAndLocalization;
+package chap11;
 
 // Chapter 11 - Exceptions and Localization
 // This chapter covers how Java handles things going wrong in a program,
