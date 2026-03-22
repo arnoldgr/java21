@@ -19,7 +19,7 @@ class Animal {
     }
 }
 
-class Zebra extends chap6.declaringconstructors.page308.Animal {
+class Zebra extends Animal {
     public Zebra(int age) {
         super(age);  // Refers to constructor in Animal
     }
