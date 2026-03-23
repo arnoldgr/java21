@@ -1,4 +1,4 @@
-package chap6.understandinginheritance;
+package chap6.understandinginheritance.page295;
 
 public class Page295 {
 //    Inheriting Object

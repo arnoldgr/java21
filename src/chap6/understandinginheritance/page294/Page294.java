@@ -1,4 +1,4 @@
-package chap6.understandinginheritance;
+package chap6.understandinginheritance.page294;
 
 public class Page294 {
 //    Class Modifiers
