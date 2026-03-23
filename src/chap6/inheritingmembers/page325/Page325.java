@@ -31,3 +31,4 @@ class Shark2 extends Fish2 {
 // that takes an int value. Since the compiler doesn’t find one, it reports an error.
 // While knowing advanced topics (such as how to create annotations) is not required for the exam,
 // knowing how to use them properly is.
+
