@@ -65,7 +65,9 @@ class MouseHouse2 {
 // In terms of assigning values, each constructor is reviewed individually,
 // which is why the second constructor does not compile. First, the constructor
 // fails to set a value for the type variable.
-// The compiler detects that a value is never set for type and reports an error. Second, the constructor sets a value for the volume variable, even though it was already assigned a value by the instance initializer.
+// The compiler detects that a value is never set for type and reports an error.
+// Second, the constructor sets a value for the volume variable,
+// even though it was already assigned a value by the instance initializer.
 
 //On the exam, be wary of any instance variables marked final.
 // Make sure they are assigned a value in the line where they are declared, in an instance initializer,

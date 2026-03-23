@@ -1,5 +1,5 @@
-// Page297.java
-package creatingclasses;
+package chap6.creatingclasses;// Page297.java
+
 
 // Creating Classes
 // Demonstrates class structure, fields, and methods
