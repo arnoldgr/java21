@@ -1,4 +1,4 @@
-package chap5.AccessingStaticData;
+package chap5.AccessingStaticData.page263;
 
 public class Page263 {
 //    In Chapter 1, we covered instance initializers that looked like unnamed methods—just code inside braces.
