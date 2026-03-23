@@ -25,8 +25,7 @@ public class Page329 {
 //    In this example, the instance method hasFeathers() is marked as final in the parent class Bird,
 //    so the child class Penguin cannot override the parent method, resulting in a compiler error.
 //    The static method flyAway() is also marked final, so it cannot be hidden in the subclass.
-//    In this example, whether or not the child method uses the final keyword is irrelevant—the code
-//    will not compile either way.
+//    In this example, whether or not the child method uses the final keyword is irrelevant—the code will not compile either way.
 //    This rule applies only to inherited methods.
 //    For example, if the two methods were marked private in the parent Bird class,
 //    then the Penguin class, as defined, would compile. In that case, the private methods
