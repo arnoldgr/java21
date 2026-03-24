@@ -1,4 +1,4 @@
-package chap5.AccessingStaticData.page258;
+package chap5.e5AccessingStaticData.page258;
 
 //Usually, accessing a static member is easy.
 public class Snake {

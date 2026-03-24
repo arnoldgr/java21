@@ -1,4 +1,4 @@
-package chap5.AccessingStaticData.page261;
+package chap5.e5AccessingStaticData.page261;
 
 public class Counter {
     private static int count;

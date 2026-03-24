@@ -1,4 +1,4 @@
-package chap5.OverloadingMethods.page276;
+package chap5.g8OverloadingMethods.page276;
 
 //Let’s give this a practice run using the rules in Table 5.6.
 // What do you think this outputs?

@@ -1,4 +1,4 @@
-package chap5.PassingDataAmongMethods.page271;
+package chap5.f6PassingDataAmongMethods.page271;
 //Where autoboxing and unboxing really shine is when we apply them to method calls.
 public class Chimpanzee {
     public void climb(long t) {}

@@ -1,4 +1,4 @@
-package chap5.ApplyingAccessModifiers.page249.pond.duck;
+package chap5.d4ApplyingAccessModifiers.page249.pond.duck;
 
 public class FatherDuck {
     private String noise = "quack";

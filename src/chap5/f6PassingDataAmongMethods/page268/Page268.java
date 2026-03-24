@@ -1,4 +1,4 @@
-package chap5.PassingDataAmongMethods.page268;
+package chap5.f6PassingDataAmongMethods.page268;
 
 public class Page268 {
 //    Pass-by-Value vs. Pass-by-Reference

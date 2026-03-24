@@ -1,4 +1,4 @@
-package chap5.DeclaringLocalAndInstanceVariables.page242;
+package chap5.b2DeclaringLocalAndInstanceVariables.page242;
 
 //Declaring Local and Instance Variables
 //Now that we have methods, we need to talk a little bit about the variables

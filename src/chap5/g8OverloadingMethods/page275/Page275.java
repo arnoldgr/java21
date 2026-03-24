@@ -1,8 +1,4 @@
-package chap5.OverloadingMethods.page275;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+package chap5.g8OverloadingMethods.page275;
 
 public class Page275 {
     public static void main(String[] args) {

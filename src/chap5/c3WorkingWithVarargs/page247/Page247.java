@@ -1,4 +1,4 @@
-package chap5.WorkingWithVarargs.page247;
+package chap5.c3WorkingWithVarargs.page247;
 
 public class Page247 {
     public static void main(String[] args) {

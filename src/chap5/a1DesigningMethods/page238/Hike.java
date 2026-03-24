@@ -1,4 +1,4 @@
-package chap5.DesigningMethods.page238;
+package chap5.a1DesigningMethods.page238;
 
 public class Hike {
     public void hike1() {

@@ -1,4 +1,4 @@
-package chap5.ApplyingAccessModifiers.page251;
+package chap5.d4ApplyingAccessModifiers.page251;
 
 public class Fish {
 }

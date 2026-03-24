@@ -1,4 +1,4 @@
-package chap5.DesigningMethods.page236;
+package chap5.a1DesigningMethods.page236;
 
 public class Page236 {
 //    ACCESS MODIFIERS

@@ -1,4 +1,4 @@
-package chap5.AccessingStaticData.page259;
+package chap5.e5AccessingStaticData.page259;
 
 //The compiler will give you an error about making a static reference to an instance method.
 public class MantaRay {

@@ -1,4 +1,4 @@
-package chap5.DesigningMethods.page234;
+package chap5.a1DesigningMethods.page234;
 //DESIGNING METHODS
 public class Page234 {
 //    Every interesting Java program we’ve seen has had a main() method.

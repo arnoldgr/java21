@@ -1,4 +1,4 @@
-package chap5.DesigningMethods.page235;
+package chap5.a1DesigningMethods.page235;
 
 public class Page235 {
     public static void main(String[] args) {

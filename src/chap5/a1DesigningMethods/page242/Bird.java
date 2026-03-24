@@ -1,4 +1,4 @@
-package chap5.DesigningMethods.page242;
+package chap5.a1DesigningMethods.page242;
 
 //Method Body
 //The final part of a method declaration is the method body.

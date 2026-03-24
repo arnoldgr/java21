@@ -1,4 +1,4 @@
-package chap5.AccessingStaticData.page261;
+package chap5.e5AccessingStaticData.page261;
 
 //Do you understand why the following lines fail to compile?
 

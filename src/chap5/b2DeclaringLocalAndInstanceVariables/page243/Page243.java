@@ -1,4 +1,4 @@
-package chap5.DeclaringLocalAndInstanceVariables.page243;
+package chap5.b2DeclaringLocalAndInstanceVariables.page243;
 
 public class Page243 {
     //    Local Variable Modifiers

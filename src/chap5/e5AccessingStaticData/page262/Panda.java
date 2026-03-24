@@ -1,4 +1,4 @@
-package chap5.AccessingStaticData.page262;
+package chap5.e5AccessingStaticData.page262;
 
 //The rules for static final variables are similar to instance final variables,
 // except they do not use static constructors (there is no such thing!)

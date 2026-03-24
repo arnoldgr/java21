@@ -1,4 +1,4 @@
-package chap5.DeclaringLocalAndInstanceVariables.page244;
+package chap5.b2DeclaringLocalAndInstanceVariables.page244;
 
 public class Page244 {
     //Effectively Final Variables

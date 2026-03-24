@@ -1,4 +1,4 @@
-package chap5.ApplyingAccessModifiers.page252.pond.shore;
+package chap5.d4ApplyingAccessModifiers.page252.pond.shore;
 
 public class BirdWatcher {
     public void watchBird() {

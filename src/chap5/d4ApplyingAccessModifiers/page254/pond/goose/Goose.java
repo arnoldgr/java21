@@ -1,6 +1,6 @@
-package chap5.ApplyingAccessModifiers.page254.pond.goose;
+package chap5.d4ApplyingAccessModifiers.page254.pond.goose;
 
-import chap5.ApplyingAccessModifiers.page254.pond.shore.Bird;
+import chap5.d4ApplyingAccessModifiers.page254.pond.shore.Bird;
 
 public class Goose extends Bird {
     public void helpGooseSwim() {

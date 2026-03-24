@@ -1,7 +1,7 @@
-package chap5.ApplyingAccessModifiers.page253.pond.swan;
+package chap5.d4ApplyingAccessModifiers.page253.pond.swan;
 
 
-import chap5.ApplyingAccessModifiers.page253.pond.shore.Bird;
+import chap5.d4ApplyingAccessModifiers.page253.pond.shore.Bird;
 
 public class Swan extends Bird {     // Swan is a subclass of Bird
 

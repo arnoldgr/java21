@@ -1,4 +1,4 @@
-package chap5.OverloadingMethods.page272;
+package chap5.g8OverloadingMethods.page272;
 
 //Now let’s look at an example that is not valid overloading:
 public class Eagle {

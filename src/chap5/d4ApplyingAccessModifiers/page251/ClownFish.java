@@ -1,4 +1,4 @@
-package chap5.ApplyingAccessModifiers.page251;
+package chap5.d4ApplyingAccessModifiers.page251;
 
 //The protected access modifier adds the ability to access members of a parent class.
 // We cover creating subclasses in depth in Chapter 6.

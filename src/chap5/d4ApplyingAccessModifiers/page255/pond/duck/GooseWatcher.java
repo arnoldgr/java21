@@ -1,6 +1,6 @@
-package chap5.ApplyingAccessModifiers.page255.pond.duck;
+package chap5.d4ApplyingAccessModifiers.page255.pond.duck;
 
-import chap5.ApplyingAccessModifiers.page255.pond.goose.Goose;
+import chap5.d4ApplyingAccessModifiers.page255.pond.goose.Goose;
 
 public class GooseWatcher {
     public void watch() {

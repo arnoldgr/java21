@@ -1,4 +1,4 @@
-package chap5.WorkingWithVarargs.page248;
+package chap5.c3WorkingWithVarargs.page248;
 
 //Finally! You get to do something other than identify whether method declarations are valid.
 // Instead, you get to look at method calls. Can you figure out why each method call outputs

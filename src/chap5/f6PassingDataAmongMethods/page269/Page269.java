@@ -1,4 +1,4 @@
-package chap5.PassingDataAmongMethods.page269;
+package chap5.f6PassingDataAmongMethods.page269;
 
 public class Page269 {
     public static void main(String[] args) {

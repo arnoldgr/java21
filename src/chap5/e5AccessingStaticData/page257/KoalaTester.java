@@ -1,4 +1,4 @@
-package chap5.AccessingStaticData.page257;
+package chap5.e5AccessingStaticData.page257;
 
 public class KoalaTester {
     public static void main(String[] args) {

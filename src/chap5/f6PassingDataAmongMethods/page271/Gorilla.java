@@ -1,4 +1,4 @@
-package chap5.PassingDataAmongMethods.page271;
+package chap5.f6PassingDataAmongMethods.page271;
 //As before, the same limitation around autoboxing and numeric promotion applies to method calls.
 // For example, the following does not compile:
 public class Gorilla {

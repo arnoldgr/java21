@@ -1,4 +1,4 @@
-package chap5.DesigningMethods.page239;
+package chap5.a1DesigningMethods.page239;
 //Method Name
 //Method names follow the same rules we practiced with variable names in Chapter 1, “Building Blocks.”
 // To review, an identifier may only contain letters, numbers, currency symbols, or _.

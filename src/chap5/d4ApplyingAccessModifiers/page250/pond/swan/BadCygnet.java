@@ -1,10 +1,10 @@
-package chap5.ApplyingAccessModifiers.page250.pond.swan;
+package chap5.d4ApplyingAccessModifiers.page250.pond.swan;
 //In this same pond, a swan just gave birth to a baby swan.
 // A baby swan is called a cygnet.
 // The cygnet sees the ducklings learning to quack and decides to learn from MotherDuck as well.
 
 
-import chap5.ApplyingAccessModifiers.page250.pond.duck.MotherDuck;
+import chap5.d4ApplyingAccessModifiers.page250.pond.duck.MotherDuck;
 
 public class BadCygnet {
     public void makeNoise() {

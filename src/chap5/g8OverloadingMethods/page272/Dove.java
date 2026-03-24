@@ -1,4 +1,4 @@
-package chap5.OverloadingMethods.page272;
+package chap5.g8OverloadingMethods.page272;
 
 //Calling overloaded methods is easy. You just write code, and Java calls the right one.
 // For example, look at these two methods:

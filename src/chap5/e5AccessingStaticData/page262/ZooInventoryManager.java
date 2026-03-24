@@ -1,7 +1,7 @@
-package chap5.AccessingStaticData.page262;
+package chap5.e5AccessingStaticData.page262;
 
 //This can get interesting. Do you think the following compiles?
-import java.util.*;
+
 public class ZooInventoryManager {
     private static final String[] treats = new String[10];
     public static void main(String[] args) {

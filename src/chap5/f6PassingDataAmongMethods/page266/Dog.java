@@ -1,4 +1,4 @@
-package chap5.PassingDataAmongMethods.page266;
+package chap5.f6PassingDataAmongMethods.page266;
 
 //Passing Objects
 //Now that you’ve seen primitives, let’s try an example with a reference type.

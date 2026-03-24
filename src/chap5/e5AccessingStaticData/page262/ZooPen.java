@@ -1,4 +1,4 @@
-package chap5.AccessingStaticData.page262;
+package chap5.e5AccessingStaticData.page262;
 
 //Static Variable Modifiers
 //Referring back to Table 5.3, static variables can be declared with the same modifiers

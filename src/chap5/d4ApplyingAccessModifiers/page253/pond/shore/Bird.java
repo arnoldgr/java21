@@ -1,4 +1,4 @@
-package chap5.ApplyingAccessModifiers.page253.pond.shore;
+package chap5.d4ApplyingAccessModifiers.page253.pond.shore;
 
 public class Bird {
     protected String text = "floating";

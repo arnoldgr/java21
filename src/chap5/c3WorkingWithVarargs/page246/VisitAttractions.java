@@ -1,4 +1,4 @@
-package chap5.WorkingWithVarargs.page246;
+package chap5.c3WorkingWithVarargs.page246;
 
 
 //Working with Varargs

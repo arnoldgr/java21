@@ -1,6 +1,6 @@
-package chap5.ApplyingAccessModifiers.page255b.pond.goose;
+package chap5.d4ApplyingAccessModifiers.page255b.pond.goose;
 
-import chap5.ApplyingAccessModifiers.page255b.pond.duck.DuckTeacher;
+import chap5.d4ApplyingAccessModifiers.page255b.pond.duck.DuckTeacher;
 
 public class LostDuckling {
     public void swim() {

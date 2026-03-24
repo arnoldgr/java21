@@ -1,4 +1,4 @@
-package chap5.AccessingStaticData.page260c;
+package chap5.e5AccessingStaticData.page260c;
 
 //The exam creators like this topic—a lot. A static method or instance method can call a
 // static method because static methods don’t require an object to use.

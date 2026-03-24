@@ -1,4 +1,4 @@
-package chap5.DesigningMethods.page240;
+package chap5.a1DesigningMethods.page240;
 
 //If you do have multiple parameters, you separate them with a comma.
 // There are a couple more rules for the parameter list that you’ll see when we cover varargs shortly.

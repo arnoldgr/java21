@@ -1,4 +1,4 @@
-package chap5.ApplyingAccessModifiers.page255b.pond.duck;
+package chap5.d4ApplyingAccessModifiers.page255b.pond.duck;
 
 public class DuckTeacher {
     public String name = "helpful";

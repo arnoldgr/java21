@@ -1,4 +1,4 @@
-package chap5.DeclaringLocalAndInstanceVariables.page245;
+package chap5.b2DeclaringLocalAndInstanceVariables.page245;
 
 //Instance Variable Modifiers
 //Like methods, instance variables can have different access levels,

@@ -1,4 +1,4 @@
-package chap5.PassingDataAmongMethods.page268;
+package chap5.f6PassingDataAmongMethods.page268;
 
 //Returning Objects
 //Getting data back from a method is easier. A copy is made of the primitive or reference and returned from the method. Most of the time, this returned value is used. For example, it might be stored in a variable. If the returned value is not used, the result is ignored. Watch for this on the exam. Ignored returned values are tricky.

@@ -1,7 +1,7 @@
-package chap5.ApplyingAccessModifiers.page252.pond.inland;
+package chap5.d4ApplyingAccessModifiers.page252.pond.inland;
 
 
-import chap5.ApplyingAccessModifiers.page252.pond.shore.Bird;
+import chap5.d4ApplyingAccessModifiers.page252.pond.shore.Bird;
 
 public class BirdWatcherFromAfar {       // Not a subclass of Bird
     public void watchBird() {

@@ -1,4 +1,4 @@
-package chap5.DesigningMethods.page241;
+package chap5.a1DesigningMethods.page241;
 
 //A method signature, composed of the method name and parameter list,
 // is what Java uses to uniquely determine exactly which method you are attempting

@@ -1,4 +1,4 @@
-package chap5.AccessingStaticData.page260;
+package chap5.e5AccessingStaticData.page260;
 
 //If we fix this by adding static to third(), we create a new problem. Can you figure out what it is?
 //add static to the name variable as well.

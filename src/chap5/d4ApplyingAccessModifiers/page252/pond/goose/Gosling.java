@@ -1,7 +1,7 @@
-package chap5.ApplyingAccessModifiers.page252.pond.goose;
+package chap5.d4ApplyingAccessModifiers.page252.pond.goose;
 
 
-import chap5.ApplyingAccessModifiers.page252.pond.shore.Bird;
+import chap5.d4ApplyingAccessModifiers.page252.pond.shore.Bird;
 
 public class Gosling extends Bird {   // Gosling is a subclass of Bird
     public void swim() {
