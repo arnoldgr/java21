@@ -1,7 +1,5 @@
 package chap6.creatingabstractclasses.page331;
 
-
-public class Page331 {
 //    Easy so far. But there are some rules you need to be aware of:
 //
 //    Only instance methods can be marked abstract within a class, not variables, constructors, or static methods.
@@ -52,7 +50,7 @@ public class Page331 {
 //    An abstract class is most commonly used when you want another class to inherit properties of a particular class,
 //    but you want the subclass to fill in some of the implementation details.
 //
-}
+
 //Earlier, we said that an abstract class is one that cannot be instantiated.
 //This means that if you attempt to instantiate it, the compiler will report an exception, as in this example:
 //abstract class Alligator {

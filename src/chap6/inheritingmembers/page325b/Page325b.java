@@ -1,7 +1,7 @@
 package chap6.inheritingmembers.page325b;
 
 public class Page325b {
-
+}
     //    Redeclaring private Methods
 //    What happens if you try to override a private method?
 //    In Java, you can’t override private methods since they are not inherited.
@@ -12,13 +12,13 @@ public class Page325b {
 //    Java permits you to redeclare a new method in the child class with the same or
 //    modified signature as the method in the parent class.
 //    This method in the child class is a separate and independent method, unrelated to the parent version’s method, so none of the rules for overriding methods is invoked. For example, these two declarations compile:
-    public class Beetle {
+    class Beetle {
         private String getSize() {
             return "Undefined";
         }
     }
 
-    public class RhinocerosBeetle extends Beetle {
+    class RhinocerosBeetle extends Beetle {
         private int getSize() {
             return 5;
         }
@@ -30,4 +30,4 @@ public class Page325b {
 //    What if the getSize() method was declared public in Beetle?
 //    In this case, the method in RhinocerosBeetle would be an invalid override.
 //    The access modifier in RhinocerosBeetle is more restrictive, and the return types are not covariant.
-}
+

@@ -1,6 +1,5 @@
 package chap6.inheritingmembers.page329;
 
-public class Page329 {
 //    Writing final Methods
 
 //    We conclude our discussion of method inheritance with a somewhat self-explanatory rule:
@@ -30,4 +29,4 @@ public class Page329 {
 //    For example, if the two methods were marked private in the parent Bird class,
 //    then the Penguin class, as defined, would compile. In that case, the private methods
 //    would be redeclared, not overridden or hidden.
-}
+

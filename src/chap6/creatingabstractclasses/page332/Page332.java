@@ -1,6 +1,6 @@
 package chap6.creatingabstractclasses.page332;
 
-public class Page332 {
+
 //    Declaring Abstract Methods
 //    An abstract method is always declared without a body. It also includes a semicolon (;)
 //    after the method declaration.
@@ -11,7 +11,7 @@ public class Page332 {
 //    It might surprise you to know that an abstract class is not required to
 //    include any abstract methods. For example, the following code compiles even though it doesn’t
 //    define any abstract methods:
-    public abstract class Llama {
+    abstract class Llama {
         public void chew() {}
     }
 
@@ -24,18 +24,18 @@ public class Page332 {
 
 //    Like the final modifier, the abstract modifier can be placed before or after
 //    the access modifier in class and method declarations, as shown in this Tiger class:
-    abstract public class Tiger {
-        abstract public int claw();
-    }
+//     class abstract Tiger {
+//        abstract public int claw();
+//    }
 
 //    The abstract modifier cannot be placed after the class keyword in a class declaration
 //    or after the return type in a method declaration.
 //    The following Bear and howl() declarations do not compile for these reasons:
-//    public class abstract Bear {    // DOES NOT COMPILE
+//    class abstract Bear {    // DOES NOT COMPILE
 //        public int abstract howl();  // DOES NOT COMPILE
 //    }
 
 //    It is not possible to define an abstract method that has a body or default implementation.
 //    You can still define a default method with a body—you just can’t mark it as abstract.
 //    As long as you do not mark the method as final, the subclass has the option to override the inherited method.
-}
+
