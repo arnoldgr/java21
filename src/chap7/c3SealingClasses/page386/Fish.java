@@ -4,23 +4,28 @@ package chap7.c3SealingClasses.page386;
 //Remember from Chapter 3, switch now supports pattern matching.
 // Imagine if we could treat a sealed class like an enum in a switch by applying pattern matching.
 // Well, we can! Given a sealed class Fish with two direct subclasses:
-//abstract sealed class Fish permits Trout, Bass {
-//    public static void main(String[] args) {
-//        String getType(Fish fish) {
-//            return switch (fish) {
-//                case Trout t -> "Trout!";
-//                case Bass b -> "Bass!";
-//            };
-//        }
-//    }
-//}
-//final class Trout extends Fish {}
-//final class Bass extends Fish {}
+  abstract sealed class Fish permits Trout, Bass {
+    String getType(Fish fish) {
+        return switch (fish) {
+            case Trout t -> "Trout!";
+            case Bass b -> "Bass!";
+
+        };
+    }
+
+
+}
+final class Trout extends Fish {}
+final class Bass extends Fish {
+    public static void main(String[] args) {
+        Fish f  = new Bass();
+        System.out.println(f.getType(f));
+
+    }
+}
+
 
 //We can define a switch expression that does not require a default clause:
-
-
-
 
 
 //This only works because Fish is abstract and sealed, and all possible subclasses are handled.
