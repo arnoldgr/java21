@@ -1,4 +1,4 @@
-package chap1.UnderstandingDataTypes;
+package chap1.f6UnderstandingDataTypes;
 
 public class Page28 {
     public static void main(String[] args) {

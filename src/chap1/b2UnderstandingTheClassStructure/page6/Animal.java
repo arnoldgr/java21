@@ -1,4 +1,4 @@
-package chap1.UnderstandingTheClassStructure.page6;
+package chap1.b2UnderstandingTheClassStructure.page6;
 //run from terminal to test in a file call Animal.java
 
 /*Most of the time, each Java class is defined in its own .java file.

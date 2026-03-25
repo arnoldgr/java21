@@ -1,4 +1,4 @@
-package chap1.UnderstandingDataTypes;
+package chap1.f6UnderstandingDataTypes;
 
 //Incidental and essential whitespace
 public class Page32 {

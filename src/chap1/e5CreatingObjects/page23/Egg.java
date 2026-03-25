@@ -1,4 +1,4 @@
-package chap1.CreatingObjects.page23;
+package chap1.e5CreatingObjects.page23;
 
 //You should expect to see a question about initialization on the exam.
 // Let’s try one more. What do you think this code prints out?

@@ -1,4 +1,4 @@
-package chap1.UnderstandingDataTypes;
+package chap1.f6UnderstandingDataTypes;
 
 //Eight primitive types
 public class Page25 {

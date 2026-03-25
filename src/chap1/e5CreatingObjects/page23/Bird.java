@@ -1,4 +1,4 @@
-package chap1.CreatingObjects.page23;
+package chap1.e5CreatingObjects.page23;
 
 //How many blocks do you see?
 public class Bird {

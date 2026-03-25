@@ -1,5 +1,5 @@
 //OBJECTS
-package chap1.CreatingObjects.page21;
+package chap1.e5CreatingObjects.page21;
 
 public class Chicken {
     int numEggs = 12;  // initialize on line

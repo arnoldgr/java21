@@ -1,4 +1,4 @@
-package chap1.UnderstandingTheClassStructure.page4;
+package chap1.b2UnderstandingTheClassStructure.page4;
 
 public class Page4 {
     String name;

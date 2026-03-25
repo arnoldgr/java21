@@ -1,4 +1,4 @@
-package chap1.UnderstandingDataTypes;
+package chap1.f6UnderstandingDataTypes;
 /*text blocks
 A text block starts and ends with three double quotes ("""), and the contents don’t need to be escaped.
  This is much easier to read. Notice how the type is still String.

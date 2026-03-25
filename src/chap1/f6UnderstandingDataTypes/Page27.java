@@ -1,5 +1,5 @@
 //Literals and the Underscore Character
-package chap1.UnderstandingDataTypes;
+package chap1.f6UnderstandingDataTypes;
 
 public class Page27 {
     public static void main(String[] args) {

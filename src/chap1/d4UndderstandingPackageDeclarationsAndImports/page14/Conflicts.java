@@ -1,6 +1,6 @@
 package chap1.d4UndderstandingPackageDeclarationsAndImports.page14; // package must be first non-comment, not required
 
-import java.util.Date;  // must be after package if there is a package . not required
+import java.util.Date;
 
 
 
@@ -16,7 +16,7 @@ public class Conflicts {
     fully qualified class name. Or you can drop both import statements and always use the
     fully qualified class name.
      */
-        java.util.Date date2;
+        Date date2;
         Date date3;
 
     }

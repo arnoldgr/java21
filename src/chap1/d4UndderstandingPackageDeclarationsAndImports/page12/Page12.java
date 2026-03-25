@@ -1,7 +1,8 @@
 package chap1.d4UndderstandingPackageDeclarationsAndImports.page12;
 //import java.util.*;
 //import java.util.concurrent.*;
-import java.util.concurrent.atomic.*;
+
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class Page12 {
     static void main() {

@@ -9,7 +9,9 @@ package chap1.d4UndderstandingPackageDeclarationsAndImports.page13;
 // and it must be at the end
 //import java.nio.file.Paths.*; // NO GOOD - you cannot import methods
 // only class names
-import java.nio.file.*;
+
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 public class ImputImports {
     public void read(Files files) {
