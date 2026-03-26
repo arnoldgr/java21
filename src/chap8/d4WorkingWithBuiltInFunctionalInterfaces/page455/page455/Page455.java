@@ -1,4 +1,4 @@
-package chap8.d4WorkingWithBuiltInFunctionalInterfaces.page455;
+package chap8.d4WorkingWithBuiltInFunctionalInterfaces.page455.page455;
 
 //Working with Built-in Functional Interfaces
 
@@ -17,14 +17,15 @@ package chap8.d4WorkingWithBuiltInFunctionalInterfaces.page455;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.function.Supplier;
 
 // Implementing Supplier
 // A Supplier is used when you want to generate or supply values without taking any input.
 // The Supplier interface is defined as follows:
-@FunctionalInterface
-interface Supplier<T> {
-    T get();
-}
+//@FunctionalInterface
+//interface Supplier<T> {
+//    T get();
+//}
 
 //You can create a LocalDate object using the factory method now().
 // This example shows how to use a Supplier to call this factory:
