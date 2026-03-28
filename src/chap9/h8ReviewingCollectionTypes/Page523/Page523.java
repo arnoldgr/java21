@@ -1,4 +1,4 @@
-package chap9.h8ReviewingCollectionTypes;
+package chap9.h8ReviewingCollectionTypes.Page523;
 
 import java.util.*;
 
@@ -35,9 +35,9 @@ public class Page523 {
 //    As you might expect, trying to modify an unmodifiable view throws an exception.
 //    When run independently, each of the following compiles and throws an
 //    UnsupportedOperationException at runtime.
-        collView.add("pink");
-        setView.remove("green");
-        mapView.put("blue", 42);
+//        collView.add("pink");
+//        setView.remove("green");
+//        mapView.put("blue", 42);
 
 //    However, since it is a view, nothing prevents you from changing the original values. For example:
         System.out.println(mapView);   // {blue=41, red=90}
@@ -45,8 +45,8 @@ public class Page523 {
         System.out.println(listView);  // [green, yellow]
         System.out.println(setView);   // [green, yellow]
 
-        map.put("blue", 105);
-        list.set(1, "purple");
+        map2.put("blue", 105);
+        list2.set(1, "purple");
 
         System.out.println(mapView);   // {blue=105, red=90}
         System.out.println(collView);  // [green, purple]
@@ -54,25 +54,27 @@ public class Page523 {
         System.out.println(setView);   // [green, yellow]
 
 
-//    On line 29, notice that the value of blue is changed to 105 in the original
-//    TreeMap and it shows up as changed in mapView on line 32.
-//    The list variable created on line 13 refers to a fixed sized backed array.
+//    On line 48, notice that the value of blue is changed to 105 in the original
+//    TreeMap and it shows up as changed in mapView on line 51.
+//    The list variable created on line 27 refers to a fixed sized backed array.
 //    Which means both collView and listView represent a view of a List that refers to a backed array.
-//    Since the value is set on line 30, it remains the same size, and the change properly shows up in our views.
+//    Since the value is set on line 49, it remains the same size, and the change properly shows up in our views.
 //            However, setView has not changed value.
-//            The constructor on line 14 makes a new set that is disconnected from the original data structure.
-//            This means line 30 has no effect on set.
+//            The constructor on line 28 makes a new set that is disconnected from the original data structure.
+//            This means line 49 has no effect on set.
 //    What happens if we try adding elements to these collections?
 
-        set.add("orange");
+        set2.add("orange");
         System.out.println(setView);   // [green, yellow, orange]
 
-        list.add("orange");            // UnsupportedOperationException
+//        list.add("orange");            // UnsupportedOperationException
 
-//    Line 36 successfully modifies the underlying HashSet, with the changes reflected in the view on line 37.
-//    Line 39 throws an exception at runtime. Remember, the list was created with Arrays.asList().
+//    Line 67 successfully modifies the underlying HashSet, with the changes reflected in the view on line 37.
+//    Line 70 throws an exception at runtime. Remember, the list was created with Arrays.asList().
 //    As we saw earlier in the chapter, you can replace elements in such objects but you cannot add/remove elements.
 //    For the exam, remember to check the type of the underlying object to determine if things can be added, removed,
 //    or modified.
+
+//        SEE TABLE 9.13 AND 9.14 IN THE BOOK
     }
 }
