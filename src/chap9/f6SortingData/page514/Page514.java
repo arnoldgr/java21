@@ -1,6 +1,6 @@
 package chap9.f6SortingData.page514;
 
-public record Duck(String name, int weight) implements Comparable<Duck> {
+record Duck(String name, int weight) implements Comparable<Duck> {
     public int compareTo(Duck d) {
         return name.compareTo(d.name);
     }
