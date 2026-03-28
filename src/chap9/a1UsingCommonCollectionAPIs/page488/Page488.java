@@ -44,9 +44,9 @@ public class Page488 {
         System.out.println(set1.equals(set2));    // true
         System.out.println(list1.equals(set1));   // false
 
-//        Line 43 prints false because the elements are in a different order, and a List cares about order.
-//        By contrast, line 44 prints true because a Set is not sensitive to order.
-//        Finally, line 45 prints false because the types are different.
+//        Line 28 prints false because the elements are in a different order, and a List cares about order.
+//        By contrast, line 29 prints true because a Set is not sensitive to order.
+//        Finally, line 30 prints false because the types are different.
 
 //                Unboxing nulls
 
@@ -57,7 +57,7 @@ public class Page488 {
         heights.add(null);
         int h = heights.get(0);  // NullPointerException
 
-//        On line 57, we add a null to the list.
+//        On line 4, we add a null to the list.
 //        This is legal because a null reference can be assigned to any reference variable.
 //        On line 5, we try to unbox that null to an int primitive.
 //        This is a problem. Java tries to get the int value of null. Since calling any method on null gives a NullPointerException, that is just what we get. Be careful when you see null in relation to autoboxing.
